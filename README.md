@@ -1,5 +1,4 @@
-﻿
-#Docker-Laravel
+# Docker-Laravel
 
 This is a demo Laravel project with docker.
 
