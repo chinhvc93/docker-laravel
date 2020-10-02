@@ -6,7 +6,7 @@ This is a demo Laravel project with docker.
 
 **Database**: http://127.0.0.1:8081
 
-#How to build
+# How to build
 ### 1. Pull code
 Pull code from server
 
