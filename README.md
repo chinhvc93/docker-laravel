@@ -25,7 +25,7 @@ DB_DATABASE=laravel
 
 ### 3. Run command in root folder
 ```
- docker compose up -d
+ docker-compose up -d
 ```
 
 ### 4. Create, update vendor folder in root folder by command:
