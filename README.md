@@ -18,6 +18,7 @@ Change value params:
 ```
 APP_PORT=8080
 APP_ADMINER=8081
+
 DB_USERNAME=root
 DB_PASSWORD=root
 DB_DATABASE=laravel
@@ -29,6 +30,11 @@ DB_DATABASE=laravel
 ```
 
 ### 4. Create, update vendor folder in root folder by command:
+First, access to app by command
+```
+docker-compose exec app bash
+```
+after, create vendor folder by command
 ```
 composer install
 ```
@@ -46,7 +52,6 @@ Website:
 Database: 
 127.0.0.1:8081
 ```
-
 
 
 
