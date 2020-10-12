@@ -53,10 +53,15 @@ php artisan key:generate
 ```
 If break this step then after first time access website, click generate key.
 
-### 6. Finished: Check by go to browser
+### 6. Setting permission for storage and bootstrap (optional)
 ```
-Website: 
-127.0.0.1:8080
-Database: 
-127.0.0.1:8081
+chown -R root:www-data storage/
+chmod -R 775 storage/
+chown -R root:www-data bootstrap/
+chmod -R 775 bootstrap/
 ```
+
+### 7. Finished: Check by go to browser
+**Website**: http://127.0.0.1:8080
+
+**Database**: http://127.0.0.1:8081
