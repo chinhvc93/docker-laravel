@@ -10,8 +10,16 @@ This is a demo Laravel project with docker.
 ### 1. Pull code
 Pull code from server
 
+```
+git clone https://github.com/chinhvc93/docker-laravel.git
+```
+
 ### 2. Create file .env
-Create file .env from file .env.example 
+In root folder, create file .env from file .env.example 
+
+```
+cp .env.example .env 
+```
 
 Change value params:
     
@@ -29,6 +37,12 @@ DB_DATABASE=laravel
 ```
 
 ### 4. Create, update vendor folder in root folder by command:
+SSH (attach) into app server by command:
+```
+docker-compose exec app bash
+```
+
+Install vendor folder by command:
 ```
 composer install
 ```
@@ -46,17 +60,3 @@ Website:
 Database: 
 127.0.0.1:8081
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
